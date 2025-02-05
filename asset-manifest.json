@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/jibinjoby2002/first-repo.git/static/css/main.c7021386.css",
-    "main.js": "/jibinjoby2002/first-repo.git/static/js/main.5c61188c.js",
-    "static/media/room1.jpeg": "/jibinjoby2002/first-repo.git/static/media/room1.89841c9a1c7557ad11bb.jpeg",
-    "index.html": "/jibinjoby2002/first-repo.git/index.html",
-    "main.c7021386.css.map": "/jibinjoby2002/first-repo.git/static/css/main.c7021386.css.map",
-    "main.5c61188c.js.map": "/jibinjoby2002/first-repo.git/static/js/main.5c61188c.js.map"
+    "main.css": "/first-repo/static/css/main.c7021386.css",
+    "main.js": "/first-repo/static/js/main.2c97084d.js",
+    "static/media/room1.jpeg": "/first-repo/static/media/room1.89841c9a1c7557ad11bb.jpeg",
+    "index.html": "/first-repo/index.html",
+    "main.c7021386.css.map": "/first-repo/static/css/main.c7021386.css.map",
+    "main.2c97084d.js.map": "/first-repo/static/js/main.2c97084d.js.map"
   },
   "entrypoints": [
     "static/css/main.c7021386.css",
-    "static/js/main.5c61188c.js"
+    "static/js/main.2c97084d.js"
   ]
 }
