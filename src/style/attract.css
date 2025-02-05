@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Full screen height */
+    width: 100%; /* Full screen width */
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .row {
+    display: flex;
+    width: 80vw; /* Make it take most of the screen width */
+    height: 40vh; /* Adjust height to fill the screen */
+    gap: 20px;
+    justify-content: center;
+    
+  }
+  
+  .image {
+    width: 30%; /* Adjusted width */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .text {
+    width: 50%; /* Adjusted width */
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 8px;
+  }
+  
+  /* Swiper Pagination Styles */
+  .swiper-pagination-bullet {
+    background-color: #fff; /* White pagination bullets */
+    opacity: 0.5;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: #000; /* Black active bullet */
+    opacity: 1;
+  }
+
+  .image .room-name{
+    position: absolute;
+    z-index: 1;
+    color: white;
+    bottom: 20px;
+  }

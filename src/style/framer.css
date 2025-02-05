@@ -1,0 +1,172 @@
+/* .container{
+    width: 100%;
+    height: 100%;
+}
+.one{
+    width: 100vw;
+    height: 100vh;
+
+}
+.first{
+    background-color: black;
+}
+.second{
+    background-color: red;
+}
+.third{
+    background-color: yellow;
+}
+.head{
+    color: white;
+    text-align: center;
+}
+h1,p{
+    color: white;
+}
+.para{
+    color: black;
+    padding-left: 5px;
+    text-align: justify;
+}
+
+.box{
+    height: 250px;
+    width: 250px;
+    background: #ffffff;
+    border-radius: 10px;
+}
+.second{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.third{
+    display: flex;
+    gap: 1%;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+
+}
+.image-container{
+    width: 250px;
+    height: 400px;
+    object-fit: cover;
+}
+.image-container img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+
+.fourth{
+    background: rgb(188, 72, 72);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    min-width: 90vw;
+    margin: auto;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-image {
+    flex: 1;
+  }
+  
+  .contact-image img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .contact-form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .input-group {
+    margin-bottom: 1rem;
+  }
+  
+  .input-group label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .input-group input,
+  .input-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .input-group input:focus,
+  .input-group textarea:focus {
+    border-color: #007bff;
+  }
+  
+  .send-btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .send-btn:hover {
+    background: #0056b3;
+  }
+  
+  @media (max-width: 768px) {
+    .contact-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .contact-image img {
+      max-width: 100%;
+    }
+  }
+  .map{
+    flex: 1;
+    border-radius: 10px;
+    border: none;
+    max-width: 350px;
+    width: 100%;
+
+
+  } */
