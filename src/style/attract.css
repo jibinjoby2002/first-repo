@@ -38,6 +38,7 @@
     border-radius: 8px;
     overflow: hidden;
     position: relative;
+    
   }
   
   .image img {
@@ -49,14 +50,17 @@
   
   .text {
     width: 50%; /* Adjusted width */
-    background-color: #ccc;
+    background-color:transparent;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: black;
+    color: rgb(46, 44, 44);
     font-size: 1.5rem;
-    font-weight: bold;
+    /* font-weight: bold; */
     border-radius: 8px;
+    text-align: justify;
+    background-color: rgb(222, 0, 0);
+    
   }
   
   /* Swiper Pagination Styles */
@@ -75,4 +79,9 @@
     z-index: 1;
     color: white;
     bottom: 20px;
+    opacity: 0;
+    left: 10px;
+  }
+  .room-name::first-letter {
+    color: red;
   }
