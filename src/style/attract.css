@@ -58,8 +58,9 @@
     font-size: 1.5rem;
     /* font-weight: bold; */
     border-radius: 8px;
-    text-align: justify;
-    background-color: rgb(222, 0, 0);
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    transition: box-shadow 0.5s;
     
   }
   
@@ -78,10 +79,15 @@
     position: absolute;
     z-index: 1;
     color: white;
-    bottom: 20px;
+    bottom: 10px;
     opacity: 0;
     left: 10px;
+    font-size: 20px;
+    
   }
   .room-name::first-letter {
     color: red;
+  }
+  .text:hover{
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
   }
